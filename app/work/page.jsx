@@ -23,21 +23,21 @@ const projects =[
     num:'01',
     category:'fullstack',
     tittle:'project 1',
-    description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eligendi sequi!",
+    description:"A Car Rent Project that made By Me ,End to End Project",
     stack:[{name:"Html5"},{name:"Css3"},{name:"Javascript"},{name:"Laravel"},{name:"Bootstrap"}],
     image:'/assets/work/thumb1.png',
     live:"",
-    github:""
+    github:"https://github.com/ismailbouaich/location_voitures"
   },
   {
     num:'02',
     category:'fullstack',
     tittle:'project 2',
-    description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eligendi sequi!",
+    description:"A E-commerce Web Site  that made By Me ,End to End Project",
     stack:[{name:"Laravel"},{name:"LiveWire"},{name:"Html5"},{name:"Css3"},{name:"ReactJs"},{name:"Javascript"},{name:"TailwindCss"},{name:"Redux"}],
     image:'/assets/work/thumb3.png',
     live:"",
-    github:""
+    github:"https://github.com/ismailbouaich/e-comRL"
   },
 ]
 
