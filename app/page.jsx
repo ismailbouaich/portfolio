@@ -9,6 +9,7 @@ import {Download} from 'lucide-react';
 import Social from '@/components/Social';
 import Photo from '@/components/Photo';
 import Stats from '@/components/Stats';
+import DownloadButton from '@/components/DownloadButton';
 const Home = () => {
 return(
   <section className="h-ful">
@@ -25,13 +26,10 @@ return(
             </h1>
 
           <p className="max-w-[500px] mb-9 text-black/80">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, repudiandae?
+           And This is My Portfolio I've Do My Best to Represent My Self and My Skills in This Web App
           </p>
          <div className="flex flex-col xl:flex-row items-center gap-8">
-          <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 hover:bg-[#E6D2C0] hover:text-accent hover:border-[#E6D2C0]">
-            <span> Download Cv</span>
-            <FiDownload className="text-xl"/>
-          </Button>
+         <DownloadButton />
           <div className="mb-8 xl:mb-0">
             <Social
             

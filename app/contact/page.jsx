@@ -37,23 +37,23 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 bg-transparent rounded-xl p-10 border border-accent">
+          <form method='POST' action="https://getform.io/f/c158a179-030a-4264-8097-aa9837417199" className="flex flex-col gap-6 bg-transparent rounded-xl p-10 border border-accent">
               <h3 className="text-4xl text-accent">
                 Let's Work Together
               </h3>
               <p className="text-accent">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Please Fill Up this Form To Contact me
               </p>
               <div className="grid grid-cols 1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname"  />
-                <Input type="lastname" placeholder="lastname"/>
-                <Input type="email" placeholder="email"/>
-                <Input type="phone" placeholder="phone"/>
+                <Input type="first_name" name="first_name" placeholder="First name"  />
+                <Input type="last_name" name="last_name"  placeholder="last name"/>
+                <Input type="email" name="email" placeholder="email"/>
+                <Input type="phone" name="phone"  placeholder="phone"/>
 
 
               </div>
 
-              <Select>
+              <Select name="service">
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -64,23 +64,23 @@ const Contact = () => {
                       <SelectLabel>
                         Select a Service
                       </SelectLabel>
-                      <SelectItem value="est">
+                      <SelectItem value="Web Developemnt">
                         Web Developemnt
                       </SelectItem>
-                      <SelectItem value="cst">
+                      <SelectItem value="Frontend Development">
                       Frontend Development
                       </SelectItem>
-                      <SelectItem value="mst">
+                      <SelectItem value="Backend Development">
                       Backend Development
                       </SelectItem>
-                      <SelectItem value="bst">
+                      <SelectItem value="Full Stack Development">
                       Full Stack Development
                       </SelectItem>
                     </SelectGroup>
                   </SelectGroup>
                 </SelectContent>
               </Select>
-              <Textarea className="h-[200px]" placeholder="Type your message here"/>
+              <Textarea className="h-[200px]" placeholder="Type your message here" name="message"/>
 
               <Button size="md" className="max-w-40 bg-transparent text-accent border border-accent hover:bg-[#E6D2C0] hover:text-accent hover:border-[#E6D2C0]">
 

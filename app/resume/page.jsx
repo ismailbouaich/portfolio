@@ -15,7 +15,7 @@ import { color, motion } from "framer-motion";
 
 const about={
   title:"About me",
-  description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eligendi sequi!",
+  description:"I am Ismail Bouaichi, 22 years old. I am a specialized technician in software development. Although I don't have extensive experience, I am passionate about the field of technology and I am ready to learn and fully invest myself in all the opportunities that come my way.",
   info:[
     {
       fieldName:"Name",
@@ -44,7 +44,7 @@ const about={
 const exp={
   icon:'/assets/resume/badge.svg',
   title:'My experience',
-  description:" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, sapiente!",
+  description:"This is My Experience That Ive Collect Around The Years",
   items:[
     {
       company:"solution dev",
@@ -63,12 +63,18 @@ const exp={
 const education={
   icon:'/public/assets/resume/cap.svg',
   title:'My education',
-  description:" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, sapiente!",
+  description:"This Is My Education Path",
   items:[
     {
       isntitution:"OFPPT",
       degree:"specialized technician in software development",
       duration:" 2020-2023"
+    },
+
+    {
+      isntitution:"Bac Pc",
+      degree:"Sahnone High School",
+      duration:" 2020"
     },
   
 
@@ -77,7 +83,7 @@ const education={
 
 const skills={
   title:"My skills",
-  description:" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, sapiente!",
+  description:"This My Skills that ive Earned Around The Years",
   skillList:[
     {
       icon: <FaHtml5/>,
