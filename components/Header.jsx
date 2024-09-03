@@ -15,7 +15,7 @@ const Header = () => {
             <Image
                             src="/assets/Logo.png"
                             alt="Logo"
-                            width={110}
+                            width={100}
                             height={100}
                             className="mx-auto"
                         />
