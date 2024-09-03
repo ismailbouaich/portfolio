@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Button } from "./ui/button"
 import { Nav } from "./Nav";
 import MobileNav from "./MobileNav";
+import Image from "next/image";
+
 const Header = () => {
   return(
   <header className="py-4 xl:py-6 text-black">
@@ -10,7 +12,13 @@ const Header = () => {
         {/*Logo*/}
         <Link href="/">
             <h1 className="text-4xL font-semibold">
-                Ismail<span className="text-accent">.</span>
+            <Image
+                            src="/assets/Logo.png"
+                            alt="Logo"
+                            width={120}
+                            height={100}
+                            className="mx-auto"
+                        />
             </h1>
         </Link>
         {/*desktop nav */}
