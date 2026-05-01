@@ -4,6 +4,7 @@ import { Button } from "./ui/button"
 import { Nav } from "./Nav";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
+import LangToggle from "./LangToggle";
 
 const Header = () => {
   return(
@@ -24,6 +25,7 @@ const Header = () => {
         {/*desktop nav */}
         <div className="hidden xl:flex items-center gap-8 ">
             <Nav />
+            <LangToggle />
             <Link href="/contact">
                 <Button className="hover:bg-[#E6D2C0] hover:text-accent">
                     Hire Me
